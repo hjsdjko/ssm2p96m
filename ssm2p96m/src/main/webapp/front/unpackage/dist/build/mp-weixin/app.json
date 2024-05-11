@@ -1,0 +1,103 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/register/register",
+    "pages/forget/forget",
+    "pages/center/center",
+    "pages/user-info/user-info",
+    "pages/shop-recharge/recharge",
+    "pages/shop-cart/shop-cart",
+    "pages/shop-order-confirm/shop-order-confirm",
+    "pages/shop-address/shop-address",
+    "pages/shop-address-detail/shop-address-detail",
+    "pages/shop-order/shop-order",
+    "pages/news-detail/news-detail",
+    "pages/maijia/list",
+    "pages/maijia/add-or-update",
+    "pages/maijia/detail",
+    "pages/yonghu/list",
+    "pages/yonghu/add-or-update",
+    "pages/yonghu/detail",
+    "pages/ershoushangpin/list",
+    "pages/ershoushangpin/add-or-update",
+    "pages/ershoushangpin/detail",
+    "pages/shangpinleixing/list",
+    "pages/shangpinleixing/add-or-update",
+    "pages/shangpinleixing/detail",
+    "pages/shangpinqiugou/list",
+    "pages/shangpinqiugou/add-or-update",
+    "pages/shangpinqiugou/detail",
+    "pages/liuyan/list",
+    "pages/liuyan/add-or-update",
+    "pages/liuyan/detail",
+    "pages/tongxin/list",
+    "pages/tongxin/add-or-update",
+    "pages/tongxin/detail",
+    "pages/yonghutongzhi/list",
+    "pages/yonghutongzhi/add-or-update",
+    "pages/yonghutongzhi/detail",
+    "pages/tuihuo/list",
+    "pages/tuihuo/add-or-update",
+    "pages/tuihuo/detail",
+    "pages/kuaididingdan/list",
+    "pages/kuaididingdan/add-or-update",
+    "pages/kuaididingdan/detail",
+    "pages/storeup/list",
+    "pages/storeup/add-or-update",
+    "pages/storeup/detail",
+    "pages/news/list",
+    "pages/news/add-or-update",
+    "pages/news/detail",
+    "pages/discussershoushangpin/list",
+    "pages/discussershoushangpin/add-or-update",
+    "pages/discussershoushangpin/detail",
+    "pages/discussshangpinqiugou/list",
+    "pages/discussshangpinqiugou/add-or-update",
+    "pages/discussshangpinqiugou/detail",
+    "pages/index/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "校园二手数码交易平台小程序",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#1798F2",
+    "borderStyle": "black",
+    "backgroundColor": "#FFFFFF",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabs/index.png",
+        "selectedIconPath": "static/tabs/index1.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/ershoushangpin/list",
+        "iconPath": "/static/tabs/icon1.png",
+        "selectedIconPath": "/static/tabs/icon1_act.png",
+        "text": "二手商品"
+      },
+      {
+        "pagePath": "pages/shangpinqiugou/list",
+        "iconPath": "/static/tabs/icon2.png",
+        "selectedIconPath": "/static/tabs/icon2_act.png",
+        "text": "商品求购"
+      },
+      {
+        "pagePath": "pages/center/center",
+        "iconPath": "static/tabs/mine.png",
+        "selectedIconPath": "static/tabs/mine1.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {
+    "uni-load-more": "/components/mescroll-uni/mescroll-uni",
+    "mescroll-uni": "/components/mescroll-uni/mescroll-uni",
+    "uni-popup": "/components/uni-popup/uni-popup"
+  }
+}
